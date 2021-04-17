@@ -1,4 +1,26 @@
-Which command walks a file hierarchy in search of a keyword?
-Which command displays information about processes running on your machine?
+Q1. Which command walks a file hierarchy in search of a keyword?
+A1. grep -r
+Q2.Which command displays information about processes running on your machine?
+A2.ps
+
 Which command terminates a process?
+kill
+
 Which command can help you find the difference between two files?
+cmp character by character 
+diff line by line
+
+check if a host is online
+ping
+
+show the directory you are currently in
+pwd
+
+change a file's permissions
+chmod
+
+move files from one directory to the next
+mv
+
+show file permissions for all files in a directory
+ls -l
