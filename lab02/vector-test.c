@@ -42,6 +42,14 @@ int main(int argc, char **argv) {
     printf("0 = %d\n", vector_get(v, 501));
     printf("3 = %d\n", vector_get(v, 500));
 
+    // vector_t vec = *v;
+    // int* data_array = vec.data;
+    // size_t data_array_size = vec.size; 
+
+    // for(int loop = 0; loop < (data_array_size); loop++){
+    //   printf("%d ", data_array[loop]);
+    // }
+
     vector_delete(v);
 
     printf("Test complete.\n");

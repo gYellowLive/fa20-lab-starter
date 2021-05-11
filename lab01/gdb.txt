@@ -1,9 +1,28 @@
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+1.how do you set the arguments that will be passsed to the program when it's run
+set args [Arguments]
+show args
+
+2. how to create a break point
+break xxx(line number of functions or address)
+
+3.how to execute the next line of code
+n
+
+4.s
+
+5.how to continue the program after stopping at a break point
+continue or c
+
+6 how can yo print value of a variable or an expression
+p x.
+
+
+7.how to display the variable after every step
+display expr
+
+
+8.how to show a list of all variables and their values in the current fcn?
+info locals
+
+9.how do you quite out of gdb
+q
