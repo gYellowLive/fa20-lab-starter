@@ -1,7 +1,7 @@
 .globl factorial
 
 .data
-n: .word 8
+n: .word 4
 
 .text
 main:
@@ -21,4 +21,14 @@ main:
     ecall # Exit
 
 factorial:
-    # YOUR CODE HERE
+    addi a1, x0, 1 # make sure the place to store the product is intialized to 1
+    # the number is already in a0
+loop:
+    beq a0, x0, factorial_exit
+    mul a1, a0, a1
+    addi a0, a0, -1
+    j loop
+
+factorial_exit:
+    add a0, x0, a1
+    jr ra
